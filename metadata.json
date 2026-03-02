@@ -1,0 +1,5 @@
+{
+  "name": "UNO Flip Multiplayer",
+  "description": "A multiplayer UNO Flip game with real-time dual-sided deck mechanics.",
+  "requestFramePermissions": []
+}
