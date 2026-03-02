@@ -405,7 +405,7 @@ io.on('connection', (socket) => {
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = process.env.PORT || 3000;
   
   // Attach socket.io to the HTTP server
   // We need to create the HTTP server from the express app
